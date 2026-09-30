@@ -1,0 +1,26 @@
+# 提示词模板、链和内存向量库的基础接口
+langchain-core==1.6.5
+# 通过兼容 OpenAI 的接口调用 DeepSeek
+langchain-openai==1.6.6
+# 识别 DeepSeek 兼容接口返回的连接、超时和状态错误
+openai==3.19.2
+# 从本机 .env 加载环境变量
+python-dotenv==1.2.3
+
+# PDF 加载器及其底层 PDF 解析库
+langchain-community==0.4.2
+pypdf==6.19.0
+# 将 PDF 或普通文字切成较短的段落
+langchain-text-splitters==1.1.2
+
+# 中文文本向量模型及其运行依赖
+langchain-huggingface==1.2.2
+sentence-transformers==6.1.0
+# 保存和读取 Chroma 检索库及其底层数据库
+langchain-chroma==1.1.0
+chromadb==1.5.9
+
+# 定义 HTTP 接口、校验请求与响应、启动本地服务
+fastapi==0.141.1
+pydantic==2.13.5
+uvicorn==0.54.0

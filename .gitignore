@@ -1,0 +1,9 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.py[cod]
+vector_db/
+data/*.pdf
+evaluation_api_results.json
